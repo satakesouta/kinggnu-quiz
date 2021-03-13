@@ -1,0 +1,61 @@
+/* #header {
+    height: 10vw;
+} */
+header {
+    color: black;
+    background-color: red;
+    font-size: 8vw;
+    margin: 0;
+    text-align: center;
+}
+#js-correctAnswers {
+    color: black;
+    font-size: 5vw;
+    margin: 10vw auto 5vw auto;
+    text-align: center;
+}
+#js-question {
+    color: black;
+    font-size: 5vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-bottom: 3vw;
+    margin-right: auto; 
+    /* margin: 100px  auto; */
+    text-align: center;
+}
+
+button[type="button"]{
+    font-size: 5vw;
+    margin: 1vw auto 1vw auto;
+    text-align: center;
+}
+.title {
+    color: black;
+    font-size: 5vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-bottom: 8vw;
+    margin-right: auto; 
+    /* margin: 100px  auto; */
+    text-align: center;
+    font-weight: bold;
+}
+.explanation {
+    color: black;
+    font-size: 3vw;
+    margin-top: 0vw;
+    margin-left: auto;
+    margin-bottom: 0vw;
+    margin-right: auto; 
+    /* margin: 100px  auto; */
+}
+#reChallenge {
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-bottom: 0vw;
+    margin-right: auto;
+    display: none;
+}
+

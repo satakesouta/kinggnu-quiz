@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.title {
+    color: red;
+    font-size: 9vw;
+    background-color: yellow;
+    max-width: 80vw;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-bottom: 10vw;
+    margin-right: auto; 
+    /* margin: 100px  auto; */
+    text-align: center;
+}
+
+#intro {
+    font-size: 4vw;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-bottom: 10vw;
+    margin-right: auto;
+    width: 80vw;
+}
+
+#button{
+    font-size: 5vw;
+}
