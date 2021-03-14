@@ -1,6 +1,3 @@
-/* #header {
-    height: 10vw;
-} */
 header {
     color: black;
     background-color: red;
@@ -10,28 +7,34 @@ header {
 }
 #js-correctAnswers {
     color: black;
-    font-size: 2vw;
-    margin: 2vw auto 2vw auto;
+    font-size: 3vw;
+    margin: 3vw auto 3vw auto;
     text-align: center;
 }
-#js-question {
+.title {
     color: black;
     font-size: 3vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
     margin-left: auto;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
     margin-right: auto; 
     /* margin: 100px  auto; */
     text-align: center;
+    font-weight: bold;
 }
-
-button[type="button"]{
+.explanation {
+    color: black;
     font-size: 3vw;
-    margin: 0.7vw auto 0.7vw auto;
-    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto; 
+    /* margin: 100px  auto; */
 }
 #reChallenge {
-    display: none;
+    font-size: 4vw;
+    margin: 5vw auto auto auto;
+    display: block;
 }
 #hr {
     height: 6vw;
@@ -50,28 +53,31 @@ button[type="button"]{
     }
     #js-correctAnswers {
         color: black;
-        font-size: 5vw;
+        font-size: 6vw;
         margin: 10vw auto 5vw auto;
         text-align: center;
     }
-    #js-question {
+    .title {
         color: black;
-        font-size: 5vw;
+        font-size: 6vw;
         margin-top: 5vw;
         margin-left: auto;
-        margin-bottom: 3vw;
+        margin-bottom: 8vw;
         margin-right: auto; 
         /* margin: 100px  auto; */
         text-align: center;
+        font-weight: bold;
     }
-    
-    button[type="button"]{
-        font-size: 5vw;
-        margin: 1vw auto 1vw auto;
-        text-align: center;
+    .explanation {
+        color: black;
+        font-size: 4vw;
+        margin: auto; 
+        /* margin: 100px  auto; */
     }
     #reChallenge {
-        display: none;
+        font-size: 7vw;
+        margin: 10vw auto auto auto;
+        display: block;
     }
     #hr {
         height: 10vw;
@@ -91,28 +97,31 @@ button[type="button"]{
     }
     #js-correctAnswers {
         color: black;
-        font-size: 6vw;
+        font-size: 7vw;
         margin: 12vw auto 7vw auto;
         text-align: center;
     }
-    #js-question {
+    .title {
         color: black;
-        font-size: 7.5vw;
+        font-size: 8vw;
         margin-top: 7vw;
         margin-left: auto;
-        margin-bottom: 7vw;
+        margin-bottom: 10vw;
         margin-right: auto; 
         /* margin: 100px  auto; */
         text-align: center;
+        font-weight: bold;
     }
-    
-    button[type="button"]{
+    .explanation {
+        color: black;
         font-size: 7vw;
-        margin: 2vw auto 2vw auto;
-        text-align: center;
+        margin: auto; 
+        /* margin: 100px  auto; */
     }
     #reChallenge {
-        display: none;
+        font-size: 10vw;
+        margin: 10vw auto auto auto;
+        display: block;
     }
     #hr {
         height: 14vw;

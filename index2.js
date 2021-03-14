@@ -275,10 +275,11 @@ const clickHandler = (e) => {
         // console.log(questionNumber2);
     }else{
         // 結果発表
+        document.getElementById("link").href = "index3.css"
         $problemNumber[0].textContent = "結果発表";
         document.getElementById('js-question').remove();
         document.getElementById('js-items').remove();
-        $correct.textContent = score + "問正解！";
+        $correct.textContent = questionNumber + '問中' + score + "問正解！";
         $title.textContent = title[score];
         if (score == 1) {
             $title.style.color = "#C47022";
@@ -290,7 +291,7 @@ const clickHandler = (e) => {
         document.getElementsByClassName('explanation')[0].textContent = explanation[0];
         document.getElementsByClassName('explanation')[1].textContent = explanation[1];
         // 再チャレンジボタン表示
-        document.getElementById("reChallenge").style.display ="block"
+        // document.getElementById("reChallenge").style.display ="block"
 
     };
 };
