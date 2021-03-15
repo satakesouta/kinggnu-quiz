@@ -1,6 +1,6 @@
 # キングヌークイズ
-html,css,javascriptを用いたクイズアプリ<br>
-15問のクイズから3問をランダムで出題<br>
-herokuにデプロイ済み、下記URL参照<br>
-https://kinggnu-quiz.herokuapp.com
 
+html,css,javascript を用いたクイズアプリ<br>
+15 問のクイズから 3 問をランダムで出題<br>
+heroku にデプロイ済み、下記 URL 参照<br>
+https://kinggnu-quiz.herokuapp.com
