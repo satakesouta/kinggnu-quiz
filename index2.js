@@ -163,9 +163,10 @@ const explanation = [
 // console.log(document.getElementById('js-question').textContent);
 
 // $でHTMLのオブジェクトであるとわかりやすくするのが決まり
+document.getElementsByClassName("third")[0].style.display = "none";
 const $button = document.getElementsByName("js-btn");
 const $problemNumber = document.getElementsByTagName("header");
-const $correct = document.getElementById("js-correctAnswers");
+const $correct = document.getElementsByClassName("js-correctAnswers");
 const $title = document.getElementsByClassName("title")[0];
 let buttonLength = $button.length;
 
@@ -205,7 +206,7 @@ const setupQuiz = () => {
 	// console.log($problemNumber);
 	document.getElementById("js-question").textContent =
 		quiz[question[quizIndex]].question;
-	$correct.textContent = "現在" + score + "問正解";
+	$correct[0].textContent = "現在" + score + "問正解";
 	let buttonIndex = 0;
 	while (buttonIndex < buttonLength) {
 		$button[buttonIndex].textContent =
@@ -242,11 +243,14 @@ const clickHandler = (e) => {
 		// console.log(questionNumber2);
 	} else {
 		// 結果発表
+		document.title = "キングヌークイズ";
+		document.getElementsByClassName("second")[0].style.display = "none";
+		document.getElementsByClassName("third")[0].style.display = "block";
 		document.getElementById("link").href = "index3.css";
-		$problemNumber[0].textContent = "結果発表";
-		document.getElementById("js-question").remove();
-		document.getElementById("js-items").remove();
-		$correct.textContent = questionNumber + "問中" + score + "問正解！";
+		// $problemNumber[1].textContent = "結果発表";
+		// document.getElementById("js-question").remove();
+		// document.getElementById("js-items").remove();
+		$correct[1].textContent = questionNumber + "問中" + score + "問正解！";
 		$title.textContent = title[score];
 		if (score == 1) {
 			$title.style.color = "#C47022";

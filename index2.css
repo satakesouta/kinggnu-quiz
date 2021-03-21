@@ -8,7 +8,7 @@ header {
 	margin: 0;
 	text-align: center;
 }
-#js-correctAnswers {
+.js-correctAnswers {
 	color: black;
 	font-size: 2vw;
 	margin: 2vw auto 2vw auto;
@@ -30,10 +30,10 @@ button[type="button"] {
 	margin: 0.7vw auto 0.7vw auto;
 	text-align: center;
 }
-#reChallenge {
+/* #reChallenge {
 	display: none;
-}
-#hr {
+} */
+.hr {
 	height: 6vw;
 	background-color: #ff0000;
 	margin: 10vw auto 0 auto;
@@ -48,9 +48,9 @@ button[type="button"] {
 		margin: 0;
 		text-align: center;
 	}
-	#js-correctAnswers {
+	.js-correctAnswers {
 		color: black;
-		font-size: 5vw;
+		font-size: 6vw;
 		margin: 10vw auto 5vw auto;
 		text-align: center;
 	}
@@ -73,7 +73,7 @@ button[type="button"] {
 	#reChallenge {
 		display: none;
 	}
-	#hr {
+	.hr {
 		height: 10vw;
 		background-color: #ff0000;
 		margin: 30vw auto 0 auto;
@@ -89,7 +89,7 @@ button[type="button"] {
 		margin: 0;
 		text-align: center;
 	}
-	#js-correctAnswers {
+	.js-correctAnswers {
 		color: black;
 		font-size: 6vw;
 		margin: 12vw auto 7vw auto;
@@ -114,7 +114,7 @@ button[type="button"] {
 	#reChallenge {
 		display: none;
 	}
-	#hr {
+	.hr {
 		height: 14vw;
 		background-color: #ff0000;
 		margin: 40vw auto 0 auto;

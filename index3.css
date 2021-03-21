@@ -5,7 +5,7 @@ header {
 	margin: 0;
 	text-align: center;
 }
-#js-correctAnswers {
+.js-correctAnswers {
 	color: black;
 	font-size: 3vw;
 	margin: 3vw auto 3vw auto;
@@ -36,7 +36,7 @@ header {
 	margin: 5vw auto auto auto;
 	display: block;
 }
-#hr {
+.hr {
 	height: 6vw;
 	background-color: #ff0000;
 	margin: 10vw auto 0 auto;
@@ -51,9 +51,9 @@ header {
 		margin: 0;
 		text-align: center;
 	}
-	#js-correctAnswers {
+	.js-correctAnswers {
 		color: black;
-		font-size: 6vw;
+		font-size: 5vw;
 		margin: 10vw auto 5vw auto;
 		text-align: center;
 	}
@@ -79,7 +79,7 @@ header {
 		margin: 10vw auto auto auto;
 		display: block;
 	}
-	#hr {
+	.hr {
 		height: 10vw;
 		background-color: #ff0000;
 		margin: 30vw auto 0 auto;
@@ -95,7 +95,7 @@ header {
 		margin: 0;
 		text-align: center;
 	}
-	#js-correctAnswers {
+	.js-correctAnswers {
 		color: black;
 		font-size: 7vw;
 		margin: 12vw auto 7vw auto;
@@ -123,7 +123,7 @@ header {
 		margin: 10vw auto auto auto;
 		display: block;
 	}
-	#hr {
+	.hr {
 		height: 14vw;
 		background-color: #ff0000;
 		margin: 40vw auto 0 auto;
