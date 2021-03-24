@@ -163,7 +163,9 @@ const explanation = [
 // console.log(document.getElementById('js-question').textContent);
 
 // $でHTMLのオブジェクトであるとわかりやすくするのが決まり
+
 document.getElementsByClassName("third")[0].style.display = "none";
+
 const $button = document.getElementsByName("js-btn");
 const $problemNumber = document.getElementsByTagName("header");
 const $correct = document.getElementsByClassName("js-correctAnswers");
@@ -179,8 +181,8 @@ function random(min, max) {
 // クイズ問題をランダムで選択
 let question = [];
 const random2 = () => {
-	min = 0;
-	max = quizLength - 1;
+	let min = 0;
+	let max = quizLength - 1;
 
 	let randomNumber = random(min, max);
 	let result = question.indexOf(randomNumber);
